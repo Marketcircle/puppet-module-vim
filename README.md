@@ -7,6 +7,12 @@ Tested on Debian GNU/Linux 6.0 Squeeze and Ubuntu 10.4 LTS with
 Puppet 2.6. Patches for other operating systems are welcome.
 
 
+TODO
+----
+
+* Configure and install (rake needs to be run) command-t.
+
+
 Installation
 ------------
 
