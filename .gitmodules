@@ -1,3 +1,30 @@
 [submodule "files/bundle/solarized"]
 	path = files/bundle/solarized
 	url = git://github.com/altercation/vim-colors-solarized.git
+[submodule "files/bundle/fugitive"]
+	path = files/bundle/fugitive
+	url = git://github.com/tpope/vim-fugitive.git
+[submodule "files/bundle/markdown"]
+	path = files/bundle/markdown
+	url = git://github.com/tpope/vim-markdown.git
+[submodule "files/bundle/nerdcommenter"]
+	path = files/bundle/nerdcommenter
+	url = git://github.com/scrooloose/nerdcommenter.git
+[submodule "files/bundle/supertab"]
+	path = files/bundle/supertab
+	url = git://github.com/ervandew/supertab.git
+[submodule "files/bundle/syntastic"]
+	path = files/bundle/syntastic
+	url = git://github.com/scrooloose/syntastic.git
+[submodule "files/bundle/css3"]
+	path = files/bundle/css3
+	url = git://github.com/hail2u/vim-css3-syntax.git
+[submodule "files/bundle/surround"]
+	path = files/bundle/surround
+	url = git://github.com/tpope/vim-surround.git
+[submodule "files/bundle/repeat"]
+	path = files/bundle/repeat
+	url = git://github.com/tpope/vim-repeat.git
+[submodule "files/bundle/golang"]
+	path = files/bundle/golang
+	url = git://github.com/jnwhiteh/vim-golang.git
