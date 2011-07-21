@@ -14,6 +14,10 @@ Clone this repo to a vim directory under your Puppet modules directory:
 
     git clone git://github.com/uggedal/puppet-module-vim.git vim
 
+You also need to initialize the git submodules used by this module:
+
+    git submodule update --init
+
 If you don't have a Puppet Master you can create a manifest file
 based on the notes below and run Puppet in stand-alone mode
 providing the module directory you cloned this repo to:
