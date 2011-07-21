@@ -31,3 +31,6 @@
 [submodule "files/bundle/indentpython"]
 	path = files/bundle/indentpython
 	url = git://github.com/vim-scripts/indentpython.vim.git
+[submodule "files/bundle/puppet"]
+	path = files/bundle/puppet
+	url = git://github.com/uggedal/puppet-vim.git
