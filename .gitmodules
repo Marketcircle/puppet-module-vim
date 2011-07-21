@@ -28,3 +28,6 @@
 [submodule "files/bundle/golang"]
 	path = files/bundle/golang
 	url = git://github.com/jnwhiteh/vim-golang.git
+[submodule "files/bundle/indentpython"]
+	path = files/bundle/indentpython
+	url = git://github.com/vim-scripts/indentpython.vim.git
