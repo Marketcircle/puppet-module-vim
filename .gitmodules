@@ -34,3 +34,6 @@
 [submodule "files/bundle/puppet"]
 	path = files/bundle/puppet
 	url = git://github.com/uggedal/puppet-vim.git
+[submodule "files/bundle/jinja"]
+	path = files/bundle/jinja
+	url = git://github.com/uggedal/jinja-vim.git
