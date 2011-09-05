@@ -34,3 +34,6 @@
 [submodule "files/bundle/jinja"]
 	path = files/bundle/jinja
 	url = git://github.com/uggedal/jinja-vim.git
+[submodule "files/bundle/commentary"]
+	path = files/bundle/commentary
+	url = git://github.com/tpope/vim-commentary.git
