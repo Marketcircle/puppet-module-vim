@@ -1,5 +1,5 @@
 class vim {
-  if $operatingsystem == "Ubuntu" || $operatingsystem == "Debian" {
+  if ($operatingsystem == "Ubuntu") || ($operatingsystem == "Debian") {
     package { "vim-nox":
       ensure => present,
     }
