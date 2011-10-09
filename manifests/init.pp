@@ -11,17 +11,11 @@ class vim {
 
   # Ignore git files for bundles as git submodules:
   File { ignore => '.git' }
-  if ($operatingsystem == "Ubuntu") or ($operatingsystem == "Debian") {
-    file { "/etc/vim/vimrc":
-      content => template("vim/vimrc.erb"),
-      require => Package["vim-nox"],
-    }
-  } else {
-    file { "/etc/vim/vimrc":
+
+  file { "/etc/vim/vimrc":
     content => template("vim/vimrc.erb"),
   }
 
-  }
   file {'/usr/share/vim/vimcurrent/autoload':
     source => "puppet:///modules/vim/autoload",
     recurse => true,
