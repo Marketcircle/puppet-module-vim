@@ -1,8 +1,9 @@
 class vim {
-  package { "vim-nox":
-    ensure => present,
+  if $operatingsystem == "Ubuntu" || $operatingsystem == "Debian" {
+    package { "vim-nox":
+      ensure => present,
+    }
   }
-
   # Syntax checker for python used with the syntastic vim plugin:
   package { "pyflakes":
     ensure => present,
